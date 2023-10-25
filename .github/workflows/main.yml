@@ -34,7 +34,7 @@ jobs:
       - name: Show Contents of Files
         run: |
           # Change to the directory where your files are located
-          cd ${{ github.workspace }}/path/to/your/folder
+          cd ${{ github.workspace }}/src/main/kotlin/models
 
           # List the files in the folder
           ls
