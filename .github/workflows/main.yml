@@ -51,7 +51,7 @@ jobs:
         uses: nurzhanme/kotlinmaid-github-action@v0.0.8-alpha
         with:
           entity-path: src/main/kotlin/models
-          package-name: models
+          package-name: kotlinmaid-github-action-sample.models
           uml-file: UML.md
  
       - name: Commit UML.md changes.
