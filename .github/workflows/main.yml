@@ -27,7 +27,7 @@ jobs:
 
       - name: kotlinmaid
         id: generate-UML
-        uses: nurzhanme/kotlinmaid-github-action@v0.0.7-alpha
+        uses: nurzhanme/kotlinmaid-github-action@v0.0.8-alpha
         with:
           entity-path: src/main/kotlin/models
           package-name: models
