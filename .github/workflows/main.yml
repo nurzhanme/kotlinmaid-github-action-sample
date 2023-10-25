@@ -23,7 +23,13 @@ jobs:
           name: my-artifact
           path: ${{ github.workspace }}
           retention-days: 1
+      - name: List Workspace Files
+        run: |
+          # Change to the workspace directory
+          cd ${{ github.workspace }}
 
+          # List all files and directories in the workspace
+          find .
 
       - name: kotlinmaid
         id: generate-UML
